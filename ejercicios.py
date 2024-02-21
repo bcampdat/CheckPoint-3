@@ -12,18 +12,14 @@ alumno_nik = alumno[:3]
 print (alumno_nik)
 
 # ejercicio 3
-primer_curso = cursos_realizados.find(",")
-print (primer_curso)
-primer_curso = cursos_realizados[:6]
-print (primer_curso)
+print (cursos_realizados[0])
 
 # ejercicio 4
 age_final = age + 10
 print (age_final)
 
 # ejercicio 5
-ultimo_curso = cursos_realizados[-4:]
-print (ultimo_curso)
+print (cursos_realizados[2])
 
 # ejercicio 6
 nombres = 'harry,alex,susie,jared,gail,conner'
@@ -31,10 +27,11 @@ nombres_unicos = nombres.split (",")
 print (nombres_unicos)
 
 # ejercicio 7
-primer_palabra = nombres_unicos[0].upper()
-print (primer_palabra)
-nombre_mayusculas = nombres.replace("harry", primer_palabra)
-print (nombre_mayusculas)
+primer_nombre = nombres.split (",")[0]
+print (primer_nombre)
+primer_nombre_mayusculas = primer_nombre.upper()
+nombres_unicos[0] = primer_nombre_mayusculas
+print (nombres_unicos)
 
 # ejercicio 8
 bithday = f"Feliz {age} cumpleaños, {alumno} !!!"
