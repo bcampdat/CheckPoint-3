@@ -1,7 +1,8 @@
 # ejercicio 1
 alumno = "Jordan Hudgens"
 age = 21 
-cursos_realizados = ("Python, HTML, SCSS")
+# cursos_realizados = ("Python, HTML, SCSS") # tupla
+cursos_realizados = ["Python", "HTML", "SCSS"] # lista
 estudiante = True
 
 print (alumno, age, cursos_realizados, estudiante)
